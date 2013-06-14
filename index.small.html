@@ -143,35 +143,37 @@
                         };
                         ```
                     </section>
-
-                    <section data-markdown>
-                        ## for .. in
-                        <small>use a framework</small>
+                          
+                    <!--
+                        <section data-markdown>
+                            ## for .. in
+                            <small>use a framework</small>
                         
-                        ```javascript contenteditable
-                        var data = {
+                            ```javascript contenteditable
+                            var data = {
                             foo: "oh",
                             bar: "my"
-                        }
+                            }
                         
-                        for (var d in data) {
+                            for (var d in data) {
                             console.log(data[d]);
-                        }
-                        ```
-                    </section>   
+                            }
+                            ```
+                        </section>   
                     
-                    <section data-markdown>
-                        ## for .. in
-                        <small>& never touch Object.prototype</small>
+                        <section data-markdown>
+                            ## for .. in
+                            <small>& never touch Object.prototype</small>
                         
-                        ```javascript contenteditable   
+                            ```javascript contenteditable   
                          
-                         Object.prototype.yetAnotherToString = function() {
+                            Object.prototype.yetAnotherToString = function() {
                             return "god";
-                        } 
-                        ```
-                    </section>                      
- 
+                            } 
+                            ```
+                        </section>                      
+                    -->
+
                     <section data-markdown>
                         ## Hoisting
                         <small>declare upfront all variables</small>
@@ -240,21 +242,23 @@
                     
                         ![tools](images/mustache.png)
                     </section>
-   
-                    <section data-markdown>
-                        ## Coding conventions
+                      
+                        <!--
+                        <section data-markdown>
+                            ## Coding conventions
                         
-                        <ol>
-                            <li class="fragment">indentation (4 spaces!)</li>
-                            <li class="fragment">curly braces everywhere</li>
-                            <li class="fragment">semicolons everywhere</li>    
-                            <li class="fragment">constructor functions: UpperCamelCase</li>   
-                            <li class="fragment">all other: lowerCamelCase</li> 
-                        </ol>
+                            <ol>
+                                <li class="fragment">indentation (4 spaces!)</li>
+                                <li class="fragment">curly braces everywhere</li>
+                                <li class="fragment">semicolons everywhere</li>    
+                                <li class="fragment">constructor functions: UpperCamelCase</li>   
+                                <li class="fragment">all other: lowerCamelCase</li> 
+                            </ol>
 
-                    </section>
+                        </section> 
+                        -->
                     
-                    <section data-markdown>
+                        <section data-markdown>
                         ## Globals
                         <small>reduce, minimize, delete or kill them</small>
                         
@@ -301,17 +305,18 @@
                         ```
                     </section>
                     
-                    
-                    <section data-markdown>
-                        ## Inheritance
-                        <small>favour composition over inheritance (FCoI)</small>
+                    <!--
+                        <section data-markdown>
+                            ## Inheritance
+                            <small>favour composition over inheritance (FCoI)</small>
                         
-                        <blockquote>
-                            Because inheritance exposes a subclass to details of its parent's implementation,
-                            it's often said that 'inheritance breaks encapsulation'.  
-                        </blockquote>
-                        <small class="miniR">(Gang of Four 1995:19)</small>
-                    </section>
+                            <blockquote>
+                                Because inheritance exposes a subclass to details of its parent's implementation,
+                                it's often said that 'inheritance breaks encapsulation'.  
+                            </blockquote>
+                            <small class="miniR">(Gang of Four 1995:19)</small>
+                        </section>
+                        -->
 
                     <section data-markdown>
                         ## Revealing Module Pattern 
