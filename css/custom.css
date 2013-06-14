@@ -62,6 +62,50 @@ blockquote {
     box-shadow: none;
 }
 
+/* Pure CSS Blockquote Styling */
+/*
+    <blockquote>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna. Quisque porta facilisis tortor, vitae bibendum velit fringilla vitae! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna. Quisque porta facilisis tortor, vitae bibendum velit fringilla vitae!
+    <cite>Somebody famous</cite>
+    </blockquote>
+*/
+
+blockquote:before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 4em;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    color: #2e2e2c;
+
+}
+
+.reveal blockquote:after {
+    font-family: Georgia, serif;
+    content: '\201D';
+    font-size: 4em;
+    position: absolute;
+    right: 0px;
+    bottom: -70px;
+    color: #2e2e2c;
+}
+
+/*
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+ 
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+*/
+
+
 ol {
     margin: 40px 0 0 130px !important;
 }
