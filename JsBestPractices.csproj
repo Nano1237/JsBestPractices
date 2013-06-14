@@ -100,6 +100,8 @@
     <Content Include="js\require.js" />
     <Content Include="js\reveal.js" />
     <Content Include="js\reveal.min.js" />
+    <Content Include="lib\css\default.css" />
+    <Content Include="lib\css\github.css" />
     <Content Include="lib\css\zenburn.css" />
     <Content Include="lib\font\league_gothic-webfont.svg" />
     <Content Include="lib\font\ubuntu\demo.html" />

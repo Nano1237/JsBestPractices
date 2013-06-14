@@ -21,7 +21,8 @@
         <link rel="stylesheet" href="css/custom.css">
 
         <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <!--<link rel="stylesheet" href="lib/css/zenburn.css">-->
+        <link href="lib/css/default.css" rel="stylesheet" />
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
@@ -219,7 +220,7 @@
                         
                         ```javascript contenteditable
                         function foo() {
-                        return "bar";
+                            return "bar";
                         }         
                         
                         console.log(this['foo']());
@@ -849,15 +850,11 @@
         <script src="js/2_jasmine-demo_pass/saveFormat.spec.js"></script>
         <script>
 
-            require(['jquery'], function (jquery) {
+            require(['jquery'], function ($) {
 
                 // tasty hack to get back the old global $
-                window.$ = window.jquery = jquery;
+                window.$ = window.jquery = $;
                 
-                // some dirty fixes
-                jquery("code[fragment]").addClass("fragment");
-                jquery("code[small]").addClass("small");
-
                 // start print page if print-pdf link was clicked
                 $(function () {
                     if (window.location.search.match(/print-pdf/gi)) {
