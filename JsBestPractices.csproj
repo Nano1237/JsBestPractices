@@ -43,7 +43,7 @@
     <Content Include="images\johannes.png" />
     <Content Include="images\logo_big.png" />
     <Content Include="images\mustache.png" />
-    <Content Include="index.small.html" />
+    <Content Include="index.craftsmanship.html" />
     <Content Include="css\custom.css" />
     <Content Include="css\print\paper.css" />
     <Content Include="css\print\pdf.css" />
