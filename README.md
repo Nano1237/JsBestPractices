@@ -4,7 +4,8 @@
 A collection of tools, patterns and conventions I recommend for professional JS development.
 I have an ASP.NET background; some tool recommendations are specific for the Microsoft universe.  
 
-#[&nbsp;&nbsp;&nbsp;&raquo; Start the presentation](http://johanneshoppe.github.com/JsBestPractices/)
+#[&nbsp;&nbsp;&nbsp;&raquo; Start the presentation (long version)](http://johanneshoppe.github.com/JsBestPractices/)
+#[&nbsp;&nbsp;&nbsp;&raquo; Start the presentation (short craftsmanship version)](http://johanneshoppe.github.com/JsBestPractices/index.craftsmanship.html)
 
 
 ## MIT License

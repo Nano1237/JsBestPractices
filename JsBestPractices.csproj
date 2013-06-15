@@ -40,6 +40,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="images\favicon.ico" />
+    <Content Include="images\johannes.png" />
     <Content Include="images\logo_big.png" />
     <Content Include="images\mustache.png" />
     <Content Include="index.small.html" />
