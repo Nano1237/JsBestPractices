@@ -39,6 +39,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="images\bit.ly__slides_dwx.png" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\johannes.png" />
     <Content Include="images\logo_big.png" />
