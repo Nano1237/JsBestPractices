@@ -77,10 +77,10 @@
                     <section  data-markdown>
                         ## Boolean type conversion
                         <small>To Truthy or to Falsy. That is the *only* question!</small>
-                        
+
                         ```javascript contenteditable
                         var el = document.getElementById('does_not_exist');
-                        
+
                         if(el == false) {
                             alert("shouldn't we see this message?!");
                         }
@@ -88,17 +88,41 @@
                     </section>
 
                     <section  data-markdown>
+                        ## What should we expect here?
+                        <small>Using Boolean operators</small>
+                        ```javascript contenteditable
+                        console.log(1 && 2);//
+                        console.log(1 || 2);//
+                        console.log(true && false);//
+                        console.log(true && 'string');//
+                        console.log(true || false);//
+                        console.log(true || 'string');//
+                        ```
+                    </section>
+
+                    <section  data-markdown>
+                        ## Default Variables
+                        <small>Using Boolean operators</small>
+
+                        ```javascript contenteditable
+                        function mySuperAwesomeFunction(oneVariableIsMandatory, oneNot){
+                            oneNot = oneNot || 'defaultValue';
+                        }
+                        ```
+	                  </section>
+
+                    <section  data-markdown>
                         ## Trailing comma
                         <small>works on my machine!</small>
-                        
+
                         ```javascript contenteditable
-                        var foo = { 
-                            bar: "bar", 
-                            baz: "baz", 
+                        var foo = {
+                            bar: "bar",
+                            baz: "baz",
                         };
                         ```
                     </section>
-                    
+
                     <section  data-markdown>
                         ## Return undefined
                         <small>señor developers wear mustaches</small>
